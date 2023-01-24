@@ -19,9 +19,6 @@ export default defineConfig({
             '@hooks': fileURLToPath(
                 new URL('./src/utils/hooks', import.meta.url)
             ),
-            '@images': fileURLToPath(
-                new URL('./src/assets/pictures', import.meta.url)
-            ),
             '@styles': fileURLToPath(
                 new URL('./src/assets/styles', import.meta.url)
             ),
